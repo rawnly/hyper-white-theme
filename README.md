@@ -5,13 +5,13 @@ White & Purple theme for [:zap:Hyper](https://hyper.is)
 > Live preview [Here][web_preview]
 
 # Installation
-To install this theme just edit (<kbd>Cmd + ,</kbd>) your `~/.hyper.js` and add `hyper-material-theme` to the `plugins: []` array.
+To install this theme just edit (<kbd>Cmd + ,</kbd>) your `~/.hyper.js` and add `hyper-white-theme` to the `plugins: []` array.
 
 ```javascript
   // ~/.hyper.js
   ...
     plugins: [
-      'hyper-material-theme'
+      'hyper-white-theme'
       ],
 
     // in development, you can create a directory under
@@ -26,7 +26,7 @@ Also you can use [hpm](https://github.com/zeit/hpm) (Hyper Package Manager)
 
 ```bash
   # Using HPM
-  $ hpm i hyper-material-theme
+  $ hpm i hyper-white-theme
 ```
 
 <br>

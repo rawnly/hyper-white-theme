@@ -1,0 +1,61 @@
+body, html {  margin: 0; padding: 0; text-align: center; position: relative; background: #614BBB; }
+
+.terminal { box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); text-align: left !important; background: white; color: #131325; padding: 25px; font-family: monospace !important; font-size: 18px; border-radius: 7px; width: 800px; height: 500px; border: 1px solid #614BBB; }
+
+.terminal .btn_line { position: absolute; top: 12px; left: 17px; }
+
+.terminal .btn_line * { transition: background .3s; width: 12px; height: 12px; border-radius: 10px; display: inline-block; margin: 0; padding: 0; cursor: pointer; }
+
+.terminal .close { background: #FF1446; }
+
+.terminal .close:hover { background: #e50031; }
+
+.terminal .minimize { background: #F3FF12; }
+
+.terminal .minimize:hover { background: #d8e300; }
+
+.terminal .expand { background: #0CF632; }
+
+.terminal .expand:hover { background: #08cd28; }
+
+.terminal .red-text { color: #E70348; }
+
+.terminal .cyan-text { color: #203F50; }
+
+.terminal .blue-text { color: #132C33; }
+
+.terminal .green-text { color: #3AD04E; }
+
+.terminal .yellow-text { color: #CDAC37; }
+
+.terminal .magenta-text { color: #614BBB; }
+
+.terminal .light-cyan-text { color: #468EA1; }
+
+.terminal .gray-text { color: #9F9F9F; }
+
+.terminal .row { margin-top: 7px; }
+
+.terminal .row.first { margin-top: 22px; }
+
+.terminal .underline { text-decoration: underline; }
+
+.blink { animation: blinker 0.7s linear infinite alternate; }
+
+@keyframes blinker { from { opacity: 0; }
+  50% { opacity: 0.5; }
+  to { opacity: 1; } }
+
+.center { position: absolute; left: 50%; transform: translateX(-50%) translateY(20%); }
+
+main { background: #fff; position: relative; height: 100vh; }
+
+footer { position: relative; background: #614BBB; color: #ffffff; width: 100vw; padding: 20px; text-align: center; }
+
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 { text-transform: uppercase; font-family: sans-serif; }
+
+footer .icon { transition: color .2s; color: #3a2c74; margin: 7px; font-size: 24px; cursor: pointer; }
+
+footer .icon:hover { color: #312562; }
+
+/*# sourceMappingURL=style.css.map */

@@ -50,7 +50,7 @@ body, html {  margin: 0; padding: 0; text-align: center; position: relative; bac
 
 main { background: #fff; position: relative; height: 100vh; }
 
-footer { position: relative; background: #614BBB; color: #ffffff; width: 100vw; padding: 20px; text-align: center; }
+footer { position: relative; background: #614BBB; color: #ffffff; padding: 20px; text-align: center; }
 
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 { text-transform: uppercase; font-family: sans-serif; }
 

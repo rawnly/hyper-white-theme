@@ -1,7 +1,7 @@
 # hyper-white-theme
 White & Purple theme for [:zap:Hyper](https://hyper.is)
 
-![screen][screenshot]
+![screenshot](https://cloud.githubusercontent.com/assets/16429579/23942788/b1bc05fa-096d-11e7-9528-cef9da1f40e8.png)
 > Live preview [Here][web_preview]
 
 # Installation

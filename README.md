@@ -39,9 +39,10 @@ This theme provides 1 optional extra setting that you can add in your `~/.hyper.
     ...
   },
 
+  
   // Use HEX colors
   mainColor: '#123456',
-  shell: '/usr/bin/zsh', // or whatever you use
+  
   // etc...
 ```
 

@@ -46,7 +46,7 @@ This theme provides 1 optional extra setting that you can add in your `~/.hyper.
   // etc...
 ```
 ## Icon
-<img src="https://cloud.githubusercontent.com/assets/16429579/23942872/ee8fd704-096d-11e7-95d5-2eb35c5df702.png" alt="icon" width="100" align="left" style="margin-right: 20px" />
+<img src="https://cloud.githubusercontent.com/assets/16429579/23942872/ee8fd704-096d-11e7-95d5-2eb35c5df702.png" alt="icon" width="100" align="left" style="margin-right: 20px; margin-bottom: 30px" />
 
 If you like it, you can download this custom icon themed for `hyper-white-theme`!
 

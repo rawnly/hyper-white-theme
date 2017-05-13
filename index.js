@@ -1,6 +1,6 @@
 'use strict';
 const foregroundColor = '#131325';
-const backgroundColor = '#ffffff';
+const backgroundColor = 'rgba(255, 255, 255, 0.7)';
 const mainColor = '#614BBB'
 const colors = {
   black: '#000000',
@@ -26,7 +26,7 @@ const colors = {
 
 
 
-exports.decorateConfig = (config) => {
+module.exports.decorateConfig = (config) => {
 
   // New configuration template
   const confObj = Object.assign({}, config, {
@@ -48,5 +48,11 @@ exports.decorateConfig = (config) => {
   });
 
   return confObj;
+
+  exports.onWindow = (browserWindow) => {
+    if (confObj.vibrance == true) {
+      browserWindow.setVibrancy('dark');
+    }
+  }
 
 }
